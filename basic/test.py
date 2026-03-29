@@ -135,12 +135,12 @@ print(add(5, 6.7))
 
 def add_with_type(a: int, b: int) -> int:
     """
-    This function is to add two numbers
+    This function is to add two integer numbers
     """
     return int(a + b)
 
 
 sayHello()
 
-add_with_type(add(5, 6.7))
+print(add_with_type(3, 6.8))
 print(add.__doc__)
